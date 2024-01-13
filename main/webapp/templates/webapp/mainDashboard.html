@@ -4,25 +4,47 @@
     <head>
         <meta charset="utf-8">
         <title>Dashboard</title>
-        <link rel="stylesheet" href="/irDashboardSystem/main/static/css/dashboard.css">
+        <link rel="stylesheet" href="./dashboard.css">
     </head>
     <body>
         <div class="content">
-            <table>
+            <table class="content_table">
                 <tr>
-                <td style="text-align: left; width: 30%; color:#085676; padding-left: 5%;">DASHBOARD</td>
-                <td style="width:50%;"></td>
-                <td style="text-align: right; width: 10%; padding-right: 5%;"><button><a href="/active"></a>ACTIVE</a></button></td>
-                <td style="text-align: right; width: 10%; padding-right: 5%;"><button><a href="/new"></a>ADD</a></button></td>
+                <td style="text-align: left; width: 30%; color:#085676; padding-left: 5%;" class="td.content_td">DASHBOARD</td>
+                <td style="width:50%;" class="td.content_td"></td>
+                <td style="text-align: right; width: 10%; padding-right: 5%;" class="td.content_td"><button class="nav_but"><a href="/active"></a>ACTIVE</a></button></td>
+                <td style="text-align: right; width: 10%; padding-right: 5%;" class="td.content_td"><button class="nav_but"><a href="/new"></a>ADD</a></button></td>
                 </tr>
             </table>
         </div>
 
-        <div class="contain">
-            <table>
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
+        <div class="contain" style="overflow-x:auto;">
+            <table class="contain_table">
+                <tr class="contain_tr">
+                    <td class="contain_td">CMS ID</td>
+                    <td class="contain_td">Name</td>
+                    <td class="contain_td">HQ</td>
+                    <td class="contain_td">DutyMode</td>
+                    <td class="contain_td">Ordering Time</td>
+                    <td class="contain_td">SignOn</td>
+                    <td class="contain_td">TrainArrival</td>
+                    <td class="contain_td">TrainDep</td>
+                    <td class="contain_td">Duration</td>
+                    <td class="contain_td">SignOff</td>
+                    <td class="contain_td">Update</td>
+                </tr>
+                <tr class="data_table">
+                    <td class="entry">CMS ID</td>
+                    <td class="entry">Name</td>
+                    <td class="entry">HQ</td>
+                    <td class="entry">DutyMode</td>
+                    <td class="entry">Ordering Time</td>
+                    <td class="entry">SignOn</td>
+                    <td class="entry">TrainArrival</td>
+                    <td class="entry">TrainDep</td>
+                    <td class="entry">Duration</td>
+                    <td class="entry"><button class="data_but">Update</button></td>
+                    <td class="entry"><button class="data_but">SignOff</button></td>
                 </tr>
             </table>
         </div>

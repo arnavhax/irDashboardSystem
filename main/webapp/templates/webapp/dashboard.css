@@ -8,29 +8,30 @@ body
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #e9fcff;
+    background-color: #d9faff;
 }
-div.content
+.content
 {
     display: grid; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    position:sticky;
     background-color: white;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 1%;
     padding: 1%;
+    position: sticky;
+    z-index: 1;
 }
-table.content{
+.content_table{
     width: 100%;
     text-align: center;
 }
-td.content
+.content_td
 {
     padding: 1% 1% 1% 1%;
 }
-button{
+.nav_but{
    text-align: center;
     border-style: solid;
     border-radius: 20px;
@@ -48,15 +49,36 @@ button{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position:sticky;
     background-color: white;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 1%;
 }
-table.contain{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+
+.contain_table{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
     text-align: center;
+    padding :2% 0% 2% 0%;
+}
+
+.contain_td
+{
     background-color: #085676;
+    padding-top: 1%;
+    padding-bottom: 1% ;
+    width: fit-content;
+    color: white;
+    text-align: center;
+}
+.data_but
+{
+    text-align: center;
+    background-color: transparent;
+    color:#085676;
+    padding: 10% 15% 10% 15%;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border-width: 0px;
 }

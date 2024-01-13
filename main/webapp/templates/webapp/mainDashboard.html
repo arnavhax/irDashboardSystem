@@ -1,24 +1,30 @@
-{% load static %}
-
 <!DOCTYPE html>
 
 <html>
     <head>
         <meta charset="utf-8">
         <title>Dashboard</title>
-        <link rel="stylesheet" text="text/css" href="{% static 'css/dashboard.css' %}">
+        <link rel="stylesheet" href="/irDashboardSystem/main/static/css/dashboard.css">
     </head>
     <body>
-
-        <!-- create navbar here-->
-        <div class="container">
-            <br>
-            <!--notifications-->
-
-            {% block content %}
-                
-            {% endblock %}
+        <div class="content">
+            <table>
+                <tr>
+                <td style="text-align: left; width: 30%; color:#085676; padding-left: 5%;">DASHBOARD</td>
+                <td style="width:50%;"></td>
+                <td style="text-align: right; width: 10%; padding-right: 5%;"><button><a href="/active"></a>ACTIVE</a></button></td>
+                <td style="text-align: right; width: 10%; padding-right: 5%;"><button><a href="/new"></a>ADD</a></button></td>
+                </tr>
+            </table>
         </div>
-        <script src="{% static 'js/dashboard.js' %}"></script>
+
+        <div class="contain">
+            <table>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>

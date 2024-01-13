@@ -1,3 +1,62 @@
-h1 {
-    color:rebeccapurple;
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Inter:wght@100;200;400;500;700;900&display=swap');
+
+body 
+{
+    font-family: 'Inter', sans-serif;
+    letter-spacing:1px;
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #e9fcff;
+}
+div.content
+{
+    display: grid; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position:sticky;
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    padding: 1%;
+}
+table.content{
+    width: 100%;
+    text-align: center;
+}
+td.content
+{
+    padding: 1% 1% 1% 1%;
+}
+button{
+   text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #085676;
+    background-color: transparent;
+    color:#085676;
+    padding: 10% 15% 10% 15%;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border-width: 1px;
+  }
+
+.contain{
+    display: grid; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position:sticky;
+    background-color: white;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1%;
+}
+table.contain{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    background-color: #085676;
 }
